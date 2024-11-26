@@ -1,0 +1,140 @@
+.skills {
+    background: linear-gradient(to right, #718096, #4a5568, #6b7280);
+    color: white;
+    padding: 5rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f7fafc;
+    margin-bottom: 2.5rem;
+  }
+  
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .skillCard {
+    background-color: #2d3748;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .hoverEffect:hover {
+    transform: scale(1.05);
+    background-color: #4a5568;
+  }
+  
+  .skillTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #edf2f7;
+    margin-bottom: 1rem;
+  }
+  
+  .progressBackground {
+    height: 0.5rem;
+    background-color: #4a5568;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 0.25rem;
+  }
+  
+
+  .htmlProgress {
+    background-color: #4299e1;
+    width: 90%;
+  }
+  
+  .cssProgress {
+    background-color: #48bb78;
+    width: 85%;
+  }
+  
+  .jsProgress {
+    background-color: #ecc94b;
+    width: 80%;
+  }
+  
+  .reactProgress {
+    background-color: #63b3ed;
+    width: 75%;
+  }
+  
+  .nextJsProgress {
+    background-color: #9f7aea;
+    width: 70%;
+  }
+  
+  .nodeJsProgress {
+    background-color: #ed8936;
+    width: 65%;
+  }
+  
+  .skillDescription {
+    font-size: 1rem;
+    color: #a0aec0;
+  }
+  
+
+  @media (min-width: 768px) {
+    .heading {
+      font-size: 2.5rem;
+    }
+    .grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .skillTitle {
+      font-size: 1.75rem;
+    }
+    .skillDescription {
+      font-size: 1.125rem;
+    }
+  }
+  
+ 
+  @media (min-width: 1024px) {
+    .heading {
+      font-size: 3rem;
+    }
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .skillTitle {
+      font-size: 2rem;
+    }
+    .skillDescription {
+      font-size: 1.25rem;
+    }
+  }
+  
+
+  @media (min-width: 1280px) {
+    .heading {
+      font-size: 3.5rem;
+    }
+    .skillTitle {
+      font-size: 2.25rem;
+    }
+    .skillDescription {
+      font-size: 1.375rem;
+    }
+  }
+  

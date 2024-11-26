@@ -1,0 +1,157 @@
+.aboutSection {
+    background: linear-gradient(to bottom, #4090db, #3b85cf);
+    color: white;
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #ecf0f1;
+    margin-bottom: 40px;
+  }
+  
+  .profileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .profileImageContainer {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 24px;
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .profileImage:hover {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profileText {
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
+    padding-left: 0;
+}
+
+.text {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+  
+  .highlight {
+    font-weight: 600;
+  }
+  
+  .goalsSection {
+    background: #2c3e50;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .subTitle {
+    font-size: 2rem;
+    color: #ecf0f1;
+    margin-bottom: 24px;
+  }
+  
+  .list {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 1.125rem;
+    color: #bdc3c7;
+  }
+  
+  .listItem {
+    margin-bottom: 16px;
+  }
+  
+  .skillsSection {
+    background: #3b85cf;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .skillItem {
+    background: #515f6d;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+  }
+  
+  .skillItem:hover {
+    background: #2c3e50;
+  }
+  
+  @media (min-width: 768px) {
+    .profileSection {
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 20px;
+      
+    }
+  
+    .profileImageContainer {
+      margin-bottom: 0;
+    }
+  
+    .profileText {
+      padding-left: 40px;
+    }
+  
+    .skillsGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .profileSection {
+      flex-direction: row;
+      margin: 20px;
+    }
+
+
+    .title {
+      font-size: 3rem;
+    }
+  
+    .subTitle {
+      font-size: 2.5rem;
+    }
+  
+    .text {
+      font-size: 1.25rem;
+    }
+  }
+  
